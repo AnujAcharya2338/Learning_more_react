@@ -1,18 +1,19 @@
 
+import PropTypes from 'prop-types'
+
 import React from 'react';  
-import Student from "./Student";
+import UserGreeting from './UserGreeting';
 
 function App() {
  
  return(<>
- <Student name="Luffy" age={20} isStudent={false} />
- <Student name="Zoro" age={21} isStudent={false} />
- <Student name="Nami" age={18} isStudent={true} />
- <Student name="Ussop" age={22} isStudent={false} />
- <Student name="Sanji"/>
+ <UserGreeting isLoggedIn = {true} username = "Anuj">
+
+ </UserGreeting>
+
+ <UserGreeting isLoggedIn = {true}/>
   </>
  );
 
-}
 
 export default App
