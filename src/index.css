@@ -36,7 +36,7 @@
   margin: 0;
 } */
 
-.text1{
+/* .text1{
   font-size: 2.5em;
   background-color: hsl(120, 100%, 42%);
   color: white;
@@ -52,4 +52,31 @@
   padding: 10px;
   border-radius: 10px;
   margin: 0;
+} */
+
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+color:hsl(0%, 0, 20%);
+margin-bottom: 10px;
+text-align: center;
+border: 1px solid black;
+border-radius: 20px;
+background-color: aqua;
+color: red;
+}
+
+.list-item li{
+font-size: 2em;
+list-style: none;
+color:rgb(72, 255, 0);
+text-align: center;
+margin: 0;
+
+}
+
+.list-item li:hover{
+  color:blue;
+  cursor: pointer;
 }
