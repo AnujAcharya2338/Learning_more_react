@@ -1,11 +1,10 @@
 import React from "react";
-import Button from "./Button";
-import ProfilePicture from "./ProfilePicture";
+import Counter from "../Counter";
 function App() {
   
 
   return(<> 
-  <ProfilePicture></ProfilePicture>
+  <Counter></Counter>
   </>);
 }
 export default App;
