@@ -1,10 +1,10 @@
 import React from "react";
-import MyComponent3 from "./MyComponent3";
+import ToDoList from "./ToDoList";
 function App() {
-  
-
-  return(<> 
-  <MyComponent3></MyComponent3>
-  </>);
+  return (
+    <>
+      <ToDoList></ToDoList>
+    </>
+  );
 }
 export default App;
