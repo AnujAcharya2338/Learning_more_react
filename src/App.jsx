@@ -1,10 +1,11 @@
 import React from "react";
-import ColorPicker from "./ColorPicker";
+import ColorPicker from "../../completed/ColorPicker";
+import MyComponent1 from "./MyComponent1";
 function App() {
   
 
   return(<> 
-  <ColorPicker></ColorPicker>
+  <MyComponent1></MyComponent1>
   </>);
 }
 export default App;
