@@ -1,9 +1,9 @@
-import React,{useState, useEffect} from "react";
-import ComponentA from "./ComponentA";
+import MyComponent6 from "./MyComponent6";
+
 function App() {
   return (
     <>
-      <ComponentA></ComponentA>
+      <MyComponent6></MyComponent6>
     </>
   );
 }
